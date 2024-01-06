@@ -23,11 +23,11 @@ steps:
     command: 'build'
     arguments: '--configuration Release'
     projects: |
-      **/Rollbard.Library.csproj
+      **/Rollbard.Library/Rollbard.Library.csproj
 - task: DotNetCoreCLI@2
   inputs:
     command: 'pack'
-    packagesToPack: '**/Rollbard.Library.csproj'
+    packagesToPack: '**/Rollbard.Library/Rollbard.Library.csproj'
     configuration: 'Release'
     versionEnvVar: 'nugetVersion'
     versioningScheme: 'byEnvVar'
