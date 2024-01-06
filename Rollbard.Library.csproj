@@ -12,6 +12,7 @@
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	  <PackageLicenseExpression>CC-BY-SA-4.0</PackageLicenseExpression>
+	  <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
