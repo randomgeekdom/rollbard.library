@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/obj
+/Rollbard.Library.Tests/bin/Debug/net8.0
+/Rollbard.Library.Tests/obj
