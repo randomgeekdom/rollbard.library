@@ -1,21 +1,30 @@
-﻿using Rollbard.Library.Rollers.Interfaces;
+﻿using Rollbard.Library.Extensions;
+using Rollbard.Library.Rollers.Interfaces;
+using System;
 
 namespace Rollbard.Library.Rollers
 {
-    public class FactionRoller : IFactionRoller
+    public class FactionRoller(IAdjectiveRoller adjectiveRoller, INounRoller nounRoller) : IFactionRoller
     {
-        private readonly IAdjectiveRoller adjectiveRoller;
-        private readonly INounRoller nounRoller;
-
-        public FactionRoller(IAdjectiveRoller adjectiveRoller, INounRoller nounRoller)
-        {
-            this.adjectiveRoller = adjectiveRoller;
-            this.nounRoller = nounRoller;
-        }
+        private readonly IAdjectiveRoller adjectiveRoller = adjectiveRoller;
+        private readonly INounRoller nounRoller = nounRoller;
+        private readonly Random random = new();
 
         public string Get()
         {
-            return $"The {adjectiveRoller.Get()} {nounRoller.Get()}";
+            if (this.random.NextBool(4))
+            {
+                return $"The {adjectiveRoller.Get()} {nounRoller.Get()}";
+            }
+
+            if (this.random.NextBool())
+            {
+                return $"The {adjectiveRoller.Get()}";
+            }
+            else
+            {
+                return $"The {nounRoller.Get()}";
+            }
         }
     }
 }
