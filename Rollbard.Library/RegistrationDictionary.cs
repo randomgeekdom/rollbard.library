@@ -29,6 +29,7 @@ namespace Rollbard.Library
             dictionary.AddTypes<IMonsterRoller, MonsterRoller>();
             dictionary.AddTypes<IBiomeRoller, BiomeRoller>();
             dictionary.AddTypes<ISpeciesRoller, SpeciesRoller>();
+            dictionary.AddTypes<IRegionNameRoller, RegionNameRoller>();
 
             return dictionary;
         }
