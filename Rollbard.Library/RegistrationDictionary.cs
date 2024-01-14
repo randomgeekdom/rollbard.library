@@ -21,7 +21,6 @@ namespace Rollbard.Library
             dictionary.AddTypes<ISkillRoller, SkillRoller>();
 
             dictionary.AddTypes<IMunicipalityRoller, MunicipalityRoller>();
-            //dictionary.AddTypes<IRegionRoller, RegionRoller>();
             dictionary.AddTypes<IRealNameRoller, RealNameRoller>();
 
             dictionary.AddTypes<INounRoller, NounRoller>();

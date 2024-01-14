@@ -1,5 +1,7 @@
-﻿namespace Rollbard.Library.Rollers.Interfaces
+﻿using Rollbard.Library.Models;
+
+namespace Rollbard.Library.Rollers.Interfaces
 {
-    public interface IBiomeRoller : IRoller<string>
+    public interface IBiomeRoller : IRoller<Biome>
     { }
 }
