@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rollbard.Library.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e62735d2743789cdf92c8af9c1dafb7b3cca7137")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+970c77d53430dd4b9d61c8b7cc5cee65ea61bc88")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rollbard.Library.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rollbard.Library.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
