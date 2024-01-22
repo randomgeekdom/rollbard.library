@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Rollbard.Library.Models
+﻿namespace Rollbard.Library.Models
 {
-    public class Monster
+    /// <summary>
+    /// A Monster is non-intelligent creature capable of causing destruction.
+    /// </summary>
+    /// <param name="name">The name of the monster</param>
+    /// <param name="description">The description of the monster</param>
+    public class Monster(string name, string description)
     {
-        public Monster(string name, string description)
-        {
-            this.Name = name;
-            this.Description = description;
-        }
-
-        public string Description { get; set; }
-        public string Name { get; set; }
+        public string Description { get; set; } = description;
+        public string Name { get; set; } = name;
 
         public static implicit operator string?(Monster monster)
         {

@@ -4,5 +4,6 @@
 
 /.vs
 /obj
+/bin
 /Rollbard.Library.Tests/bin/Debug/net8.0
 /Rollbard.Library.Tests/obj
