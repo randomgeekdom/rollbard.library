@@ -200,9 +200,9 @@ C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Libra
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Library.Tests.AssemblyInfo.cs
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Library.Tests.csproj.CoreCompileInputs.cache
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Library.Tests.sourcelink.json
-C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Library.Tests.csproj.CopyComplete
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Library.Tests.dll
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\refint\Rollbard.Library.Tests.dll
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Library.Tests.pdb
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.Library.Tests.genruntimeconfig.cache
 C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\ref\Rollbard.Library.Tests.dll
+C:\repos\rollbard.library\Rollbard.Library.Tests\obj\Debug\net8.0\Rollbard.AB404693.Up2Date

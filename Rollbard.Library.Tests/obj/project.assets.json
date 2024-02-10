@@ -1728,9 +1728,6 @@
       "Rollbard.Library/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
-        "dependencies": {
-          "RandomNameGeneratorLibrary": "1.2.2"
-        },
         "compile": {
           "bin/placeholder/Rollbard.Library.dll": {}
         },
@@ -5657,7 +5654,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -27,11 +27,4 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
-
-	<ItemGroup>
-		<PackageReference Include="RandomNameGeneratorLibrary" Version="1.2.2">
-			<IncludeAssets>compile</IncludeAssets>
-		</PackageReference>
-	</ItemGroup>
 </Project>
