@@ -4,3 +4,4 @@
 
 /.vs
 /Rollbard.Library/bin/Debug
+/Rollbard.Library.Tests/bin/Debug/net8.0/fine-code-coverage/coverage-tool-output
