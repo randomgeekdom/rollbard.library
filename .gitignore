@@ -15,3 +15,5 @@
 /Rollbard.Library.Tests/obj/project.nuget.cache
 /Rollbard.Library.Tests/obj/Rollbard.Library.Tests.csproj.nuget.dgspec.json
 /Rollbard.Library.Tests/obj/Rollbard.Library.Tests.csproj.nuget.g.props
+/Rollbard.Library.Tests/bin/Debug/net10.0
+/Rollbard.Library.Tests/obj/Debug/net10.0
