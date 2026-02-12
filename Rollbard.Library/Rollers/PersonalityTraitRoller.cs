@@ -13,13 +13,18 @@ namespace Rollbard.Library.Rollers
     /// </summary>
     public class PersonalityTraitRoller : IPersonalityTraitRoller, IRoller<string>
     {
-        public Dictionary<string, List<string>> Traits { get; } = new Dictionary<string, List<string>>(); 
+        public Dictionary<string, List<string>> Traits { get; } = [];
 
         public PersonalityTraitRoller()
         {
             AddToList("Ambitious", "Sedentary");
+            AddToList("Chase", "Lustful");
             AddToList("Courageous", "Cowardly");
-            AddToList("Humorous", "Serious", "Stoic");
+            AddToList("Forgiving", "Vengeful");
+            AddToList("Generous", "Greedy");
+            AddToList("Good", "Evil");
+            AddToList("Humble", "Proud");
+            AddToList("Humorous", "Serious");
             AddToList("Loud", "Quiet");
         }
 
